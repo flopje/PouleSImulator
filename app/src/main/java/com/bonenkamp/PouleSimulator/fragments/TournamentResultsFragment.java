@@ -103,15 +103,15 @@ public class TournamentResultsFragment extends Fragment implements View.OnClickL
         txtViewPosition3.setText(tournamentPositions.get(2).name());
         txtViewPosition4.setText(tournamentPositions.get(3).name());
 
-        txtViewPosition1Points.setText(tournamentPositions.get(0).getPoints());
-        txtViewPosition2Points.setText(tournamentPositions.get(1).getPoints());
-        txtViewPosition3Points.setText(tournamentPositions.get(2).getPoints());
-        txtViewPosition4Points.setText(tournamentPositions.get(3).getPoints());
+        txtViewPosition1Points.setText(String.valueOf(tournamentPositions.get(0).getPoints()));
+        txtViewPosition2Points.setText(String.valueOf(tournamentPositions.get(1).getPoints()));
+        txtViewPosition3Points.setText(String.valueOf(tournamentPositions.get(2).getPoints()));
+        txtViewPosition4Points.setText(String.valueOf(tournamentPositions.get(3).getPoints()));
 
-        txtViewPosition1Goals.setText(tournamentPositions.get(0).getTournamentGoals());
-        txtViewPosition2Goals.setText(tournamentPositions.get(1).getTournamentGoals());
-        txtViewPosition3Goals.setText(tournamentPositions.get(2).getTournamentGoals());
-        txtViewPosition4Goals.setText(tournamentPositions.get(3).getTournamentGoals());
+        txtViewPosition1Goals.setText(String.valueOf(tournamentPositions.get(0).getTournamentGoals()));
+        txtViewPosition2Goals.setText(String.valueOf(tournamentPositions.get(1).getTournamentGoals()));
+        txtViewPosition3Goals.setText(String.valueOf(tournamentPositions.get(2).getTournamentGoals()));
+        txtViewPosition4Goals.setText(String.valueOf(tournamentPositions.get(3).getTournamentGoals()));
     }
 
     @Override

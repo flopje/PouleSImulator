@@ -300,6 +300,7 @@
                 android:id="@+id/btnStartTournament"
                 android:background="@color/orangeDark"
                 android:shadowColor="@color/orangeLight"
+                android:textColor="@color/white"
                 android:padding="5dp"
                 android:layout_marginBottom="15dp"
                 android:layout_alignParentBottom="true"
