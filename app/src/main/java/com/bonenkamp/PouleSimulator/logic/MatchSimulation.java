@@ -27,7 +27,7 @@ public class MatchSimulation  {
     /**
      * Match duration in (minutes)
      */
-    private static final int MATCH_TIME = 10;
+    private static final int MATCH_TIME = 90;
 
     /**
      * 1 second in ms. Needed for game-time calculation.
