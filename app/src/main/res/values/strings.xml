@@ -44,5 +44,6 @@
     <string name="team_4">team 4:</string>
     <string name="viewHolderId">viewHolderId</string>
     <string name="listObjectId">listObjectId</string>
+    <string name="tournament_results_title">Tournament results</string>
 
 </resources>

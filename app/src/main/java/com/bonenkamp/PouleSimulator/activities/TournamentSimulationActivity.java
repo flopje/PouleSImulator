@@ -179,6 +179,6 @@ public class TournamentSimulationActivity extends ActionBarActivity implements
     @Override
     public void onBackToHomeInteraction() {
         // cal finish to return to mainActivity
-        this.finish();
+        finish();
     }
 }
