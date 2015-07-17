@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bonenkamp.PouleSimulator.fragments.TournamentMatchFragment"
+    android:background="@drawable/blue_background_gradient"
+    android:keepScreenOn="true"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="@drawable/orange_background_border"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/match_time"
+            android:text="@string/hello_blank_fragment"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAlignment="center"
+            android:text="New Text"
+            android:id="@+id/match_teams"
+            android:layout_below="@+id/match_time"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="New Text"
+            android:id="@+id/match_score"
+            android:layout_below="@+id/match_teams" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:padding="10dp"
+            android:text="Tournament overview"
+            android:id="@+id/btn_to_tournament_overview"
+            android:background="@color/orangeDark"
+            android:textColor="@color/white"
+            android:shadowColor="@color/orange"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/match_score"
+            android:layout_above="@id/btn_to_tournament_overview"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/match_stats"
+                android:layout_margin="5dp"
+                 />
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

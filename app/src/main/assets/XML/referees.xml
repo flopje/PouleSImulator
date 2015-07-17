@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<referees>
+    <referee>
+        <name>Ruud</name>
+        <strictness>3</strictness>
+    </referee>
+    <referee>
+        <name>Dirk</name>
+        <strictness>2</strictness>
+    </referee>
+    <referee>
+        <name>Johan</name>
+        <strictness>4</strictness>
+    </referee>
+    <referee>
+        <name>Wesley</name>
+        <strictness>5</strictness>
+    </referee>
+    <referee>
+        <name>Robin</name>
+        <strictness>1</strictness>
+    </referee>
+    <referee>
+        <name>Nigel</name>
+        <strictness>4</strictness>
+    </referee>
+
+</referees>

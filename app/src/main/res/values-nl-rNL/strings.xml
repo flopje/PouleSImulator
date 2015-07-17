@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PouleSimulator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="preference_file_start">com.bonenkamp.PouleSimulation.StartUpPreferences</string>
+
+    <string name="hello_blank_fragment">Ho leeg fragment</string>
+    <string name="progressdialog_title">Laden...</string>
+    <string name="preference_poule">poule_preference</string>
+    <string name="creating_poule">Aanmaken poule...</string>
+    <string name="title_activity_tournament_simulation">TournamentSimulationActivity</string>
+    <string name="simulating_match">Simuleer wedstrijd...</string>
+    <string name="standings">Tussenstand</string>
+
+</resources>

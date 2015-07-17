@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<teams>
+    <team>
+        <name>Nederland</name>
+        <att>83</att>
+        <mid>77</mid>
+        <def>76</def>
+    </team>
+    <team>
+        <name>Spanje</name>
+        <att>86</att>
+        <mid>83</mid>
+        <def>82</def>
+    </team>
+    <team>
+        <name>Duitsland</name>
+        <att>83</att>
+        <mid>83</mid>
+        <def>79</def>
+    </team>
+    <team>
+        <name>Engeland</name>
+        <att>82</att>
+        <mid>77</mid>
+        <def>78</def>
+    </team>
+</teams>

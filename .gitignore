@@ -1,0 +1,7 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.app/src/androidTest
+.DS_Store
+/build
