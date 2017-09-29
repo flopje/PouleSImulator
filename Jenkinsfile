@@ -16,7 +16,8 @@ pipeline {
     }
     stage('Build') {
       steps {
-        gradle assembleRelease
+        //gradle assembleRelease
+        echo 'Building...'
       }
     }
   }
