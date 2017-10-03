@@ -18,7 +18,7 @@ pipeline {
       steps {
         echo 'Building...'
         sh 'gradle --refresh-dependencies'
-        sh 'gradle assembleRelease'
+        sh 'gradle assembleRelease --offline'
       }
     }
   }
