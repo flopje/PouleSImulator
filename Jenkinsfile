@@ -17,6 +17,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building...'
+        sh 'gradle --refresh-dependencies'
         sh 'gradle assembleRelease'
       }
     }
